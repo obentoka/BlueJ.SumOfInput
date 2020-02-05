@@ -17,9 +17,11 @@ public class SumOfInput
         // initialise instance variables
         sum = 0;
     }
-    
-    public Integer oneToNumber(Integer numberToSum){
 
+    public Integer oneToNumber(Integer numberToSum){
+        for(int i = 1; i <= numberToSum; i++){
+          sum += i;
+        }
         return sum;
     }
 
